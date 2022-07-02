@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import aiimage from "../../utils/data/ai.png"
+import aiimage from "../../utils/data/images/ai.png"
 
 const Image = styled.img`
   width: 100%;
