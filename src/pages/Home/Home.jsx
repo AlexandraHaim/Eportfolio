@@ -1,21 +1,15 @@
-// import brandingVideo from "../../utils/data/brandingVideo.mp4"
+import styled from "styled-components";
 
-// const videoJsOptions = {
-//   autoplay: false,
-//   controls: true,
-//   sources: [{
-//     src: brandingVideo,
-//     type: "video/mp4"
-//   }]
-// }
+const Truc = styled.div`
+  display: flex;
+  position: relative;
+  // left: 300px;
+`
 
 export default function Home() {
   return (
-    <div>
-      {/* <video options={videoJsOptions}> */}
-
-      {/* </video> */}
+    <Truc>
       Voici la page Home
-    </div>
+    </Truc>
   );
 }

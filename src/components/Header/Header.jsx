@@ -3,7 +3,7 @@ import aiimage from "../../utils/data/ai.png"
 
 const Image = styled.img`
   width: 100%;
-  height: 180px;
+  height: 170px;
 `
 export default function Header() {
   return (

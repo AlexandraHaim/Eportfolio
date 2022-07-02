@@ -9,7 +9,6 @@ import { IconContext } from 'react-icons/lib';
 import { useEffect } from 'react';
 
 const Nav = styled.div`
-  // background: #15171c;
   background: #090826;
   height: 60px;
   display: flex;
@@ -37,6 +36,7 @@ const Button = styled.button`
 
 const SidebarNav = styled.nav`
   background: #090826;
+  opacity: 90%;
   width: 300px;
   height: 100%;
   display: flex;
