@@ -15,6 +15,13 @@ const Nav = styled.div`
   justify-content: flex-start;
   align-items: center;
 `;
+const Imses = styled.strong`
+  left: 45%;
+  color: white;
+  display: flex;
+  position: relative;
+  font-size: 20px;
+`
 
 const NavIcon = styled(Link)`
   margin-left: 2rem;
@@ -81,6 +88,7 @@ const Sidebar = () => {
           <NavIcon to='#'>
             <FaIcons.FaBars onClick={showSidebar} />
           </NavIcon>
+          <Imses>IMSES</Imses>
         </Nav>
         <SidebarNav sidebar={sidebar}>
           <SidebarWrap>

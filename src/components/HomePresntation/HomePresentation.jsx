@@ -1,7 +1,7 @@
 import styled from "styled-components";
-import { pdfjs } from "react-pdf";
-import resume from "../../utils/data/files/CV_Alexandra_Haim.pdf"
-pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`
+// import { pdfjs } from "react-pdf";
+// import resume from "../../utils/data/files/CV_Alexandra_Haim.pdf"
+// pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`
 
 const Intro = styled.div`
     display: flex;
@@ -25,9 +25,9 @@ export default function HomePresentation() {
         <Nom>Alexandra Haim</Nom>
         <Classe>Digital Sciences student at ENSEEIHT</Classe>
         <Explications>I  was born in France in an environment that promotes human development. I quickly became interested in science, and particularly in digital technology: I would like to create an Artificial Intelligence at the service of humans.</Explications>
-        <a href={resume} target="_blank" rel="noreferrer">
+        {/* <a href={resume} target="_blank" rel="noreferrer">
         Open PDF
-      </a>
+      </a> */}
     </Intro>
   );
 }

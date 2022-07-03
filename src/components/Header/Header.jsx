@@ -8,7 +8,7 @@ const Image = styled.img`
 export default function Header() {
   return (
     <div>
-        <Image src={aiimage}></Image>
+        {/* <Image src={aiimage}></Image> */}
     </div>
   );
 }
