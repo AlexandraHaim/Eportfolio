@@ -22,7 +22,6 @@ export default function Home() {
         <Page pageIndex={0}/>  
       </Document> */}
 
-
       <HomePresentation />
 
     </Truc>
